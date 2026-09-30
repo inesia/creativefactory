@@ -1,0 +1,145 @@
+.hero {
+  background-color: var(--color-closing-bg);
+  padding-top: 100px;
+  padding-bottom: 80px;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.categoryTag {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  color: #d5ff50;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.title {
+  font-size: clamp(40px, 5vw, 64px);
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin-bottom: 32px;
+}
+
+.description {
+  font-size: 20px;
+  font-weight: 400;
+  color: #d3eef0;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: var(--color-page-bg);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+.contactInfo h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--color-text-dark);
+  margin-bottom: 32px;
+}
+
+.infoItem {
+  margin-bottom: 24px;
+}
+
+.infoLabel {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--color-accent-teal);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 8px;
+}
+
+.infoText {
+  font-size: 18px;
+  color: var(--color-text-muted-dark);
+  line-height: 1.5;
+}
+
+.contactForm {
+  background-color: #ffffff;
+  border: 1px solid var(--color-border-pillar);
+  padding: 40px;
+  border-radius: 4px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.03);
+}
+
+.formGroup {
+  margin-bottom: 24px;
+}
+
+.formGroup label {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--color-text-dark);
+  margin-bottom: 8px;
+}
+
+.formGroup input,
+.formGroup select,
+.formGroup textarea {
+  width: 100%;
+  padding: 16px;
+  border: 1px solid #d3eef0;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 16px;
+  background-color: #f9fbfb;
+  transition: border-color 0.2s ease;
+}
+
+.formGroup input:focus,
+.formGroup select:focus,
+.formGroup textarea:focus {
+  outline: none;
+  border-color: var(--color-accent-teal);
+}
+
+.formGroup textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.submitBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #051a26;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 16px 32px;
+  border-radius: 2px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+}
+
+.submitBtn:hover {
+  background-color: #0c364c;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

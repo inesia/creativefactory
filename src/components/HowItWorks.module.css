@@ -1,0 +1,153 @@
+.section {
+  background-color: var(--color-page-bg);
+  padding-top: 54px;
+  padding-bottom: 56px;
+}
+
+.headerRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 28px;
+  gap: 32px;
+}
+
+.leftCol {
+  flex: 1;
+}
+
+.sectionLabel {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--color-accent-teal);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-size: 52px;
+  font-weight: 700;
+  color: #09263a;
+  line-height: 1.05;
+  letter-spacing: -0.025em;
+}
+
+.titleLine {
+  display: block;
+}
+
+.rightCol {
+  flex: 0 0 480px;
+}
+
+.sectionDesc {
+  font-size: 18px;
+  font-weight: 400;
+  color: #4d6570;
+  line-height: 1.55;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.card {
+  padding: 32px 32px;
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 1px solid var(--color-border-card-how);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.cardWhite {
+  background-color: #ffffff;
+}
+
+.cardDarkTeal {
+  background-color: #0a3444;
+}
+
+.cardMidnightTeal {
+  background-color: #113d4b;
+}
+
+.cardLabel {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.cardWhite .cardLabel {
+  color: #0d8e9e;
+}
+
+.cardDarkTeal .cardLabel,
+.cardMidnightTeal .cardLabel {
+  color: #d5ff50;
+}
+
+.cardTitle {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.15;
+  margin-bottom: 16px;
+}
+
+.cardWhite .cardTitle {
+  color: #09263a;
+}
+
+.cardDarkTeal .cardTitle,
+.cardMidnightTeal .cardTitle {
+  color: #ffffff;
+}
+
+.cardDescription {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.cardWhite .cardDescription {
+  color: #6a818b;
+}
+
+.cardDarkTeal .cardDescription,
+.cardMidnightTeal .cardDescription {
+  color: #c9dadb;
+}
+
+@media (max-width: 900px) {
+  .headerRow {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .rightCol {
+    flex: auto;
+    width: 100%;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+}

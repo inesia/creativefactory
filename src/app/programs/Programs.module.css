@@ -1,0 +1,132 @@
+.hero {
+  background-color: var(--color-closing-bg);
+  padding-top: 100px;
+  padding-bottom: 80px;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.heroInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 800px;
+}
+
+.categoryTag {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  color: #d5ff50;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.title {
+  font-size: clamp(40px, 5vw, 64px);
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin-bottom: 32px;
+}
+
+.description {
+  font-size: 20px;
+  font-weight: 400;
+  color: #d3eef0;
+  line-height: 1.6;
+}
+
+.section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: var(--color-page-bg);
+}
+
+.pathwaysWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.pathwayRow {
+  display: flex;
+  background-color: #ffffff;
+  border: 1px solid var(--color-border-card-how);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.pathwayInfo {
+  flex: 1;
+  padding: 40px 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pathwayVisual {
+  flex: 0 0 380px;
+  background-color: #0a3444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #d5ff50;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+}
+
+.pathCode {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--color-accent-teal);
+  margin-bottom: 16px;
+  letter-spacing: 0.1em;
+}
+
+.pathTitle {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--color-text-dark);
+  margin-bottom: 24px;
+}
+
+.pathDesc {
+  font-size: 18px;
+  color: var(--color-text-muted-dark);
+  line-height: 1.6;
+  margin-bottom: 32px;
+}
+
+.pathCta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #051a26;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 14px 28px;
+  border-radius: 2px;
+  text-decoration: none;
+  align-self: flex-start;
+  transition: background-color 0.2s ease;
+}
+
+.pathCta:hover {
+  background-color: #0c364c;
+}
+
+@media (max-width: 900px) {
+  .pathwayRow {
+    flex-direction: column;
+  }
+  .pathwayVisual {
+    height: 200px;
+    flex: auto;
+  }
+}

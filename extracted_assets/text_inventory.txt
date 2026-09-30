@@ -1,0 +1,117 @@
+[000] [93.8, 5.9, 196.7, 26.8] sz=18.0 font=DejaVu-Sans-Bold     col=#ffffff | PROMEDIA
+[001] [93.8, 29.1, 255.4, 36.9] sz= 6.8 font=DejaVu-Sans-Bold     col=#9db3bb | C R E A T O R F A C T O R Y N E T W O R K
+[002] [96.0, 36.9, 105.2, 49.2] sz=10.5 font=DejaVu-Sans-Bold     col=#d1ff49 | ●
+[003] [332.8, 26.2, 365.6, 37.6] sz= 9.8 font=DejaVu-Sans-Bold     col=#d9e9ec | About
+[004] [376.3, 26.2, 379.7, 37.6] sz= 9.8 font=DejaVu-Sans-Bold     col=#d9e9ec |  
+[005] [400.0, 26.2, 403.4, 37.6] sz= 9.8 font=DejaVu-Sans-Bold     col=#d9e9ec |  
+[006] [423.6, 26.2, 427.0, 37.6] sz= 9.8 font=DejaVu-Sans-Bold     col=#d9e9ec |  
+[007] [436.5, 26.2, 488.0, 37.6] sz= 9.8 font=DejaVu-Sans-Bold     col=#d9e9ec | Solutions
+[008] [498.7, 26.2, 502.1, 37.6] sz= 9.8 font=DejaVu-Sans-Bold     col=#d9e9ec |  
+[009] [522.4, 26.2, 525.7, 37.6] sz= 9.8 font=DejaVu-Sans-Bold     col=#d9e9ec |  
+[010] [546.0, 26.2, 549.4, 37.6] sz= 9.8 font=DejaVu-Sans-Bold     col=#d9e9ec |  
+[011] [558.9, 26.2, 611.9, 37.6] sz= 9.8 font=DejaVu-Sans-Bold     col=#d9e9ec | Programs
+[012] [622.6, 26.2, 626.0, 37.6] sz= 9.8 font=DejaVu-Sans-Bold     col=#d9e9ec |  
+[013] [646.3, 26.2, 649.7, 37.6] sz= 9.8 font=DejaVu-Sans-Bold     col=#d9e9ec |  
+[014] [669.9, 26.2, 673.3, 37.6] sz= 9.8 font=DejaVu-Sans-Bold     col=#d9e9ec |  
+[015] [682.8, 26.2, 735.5, 37.6] sz= 9.8 font=DejaVu-Sans-Bold     col=#d9e9ec | Locations
+[016] [746.3, 26.2, 749.7, 37.6] sz= 9.8 font=DejaVu-Sans-Bold     col=#d9e9ec |  
+[017] [769.9, 26.2, 773.3, 37.6] sz= 9.8 font=DejaVu-Sans-Bold     col=#d9e9ec |  
+[018] [793.5, 26.2, 796.9, 37.6] sz= 9.8 font=DejaVu-Sans-Bold     col=#d9e9ec |  
+[019] [806.4, 26.2, 850.9, 37.6] sz= 9.8 font=DejaVu-Sans-Bold     col=#d9e9ec | Trainers
+[020] [871.6, 26.2, 875.0, 37.6] sz= 9.8 font=DejaVu-Sans-Bold     col=#d9e9ec |  
+[021] [901.6, 26.2, 972.7, 37.6] sz= 9.8 font=DejaVu-Sans-Bold     col=#071a22 | Contact Us ↗
+[022] [93.8, 750.0, 222.2, 759.6] sz= 8.2 font=DejaVu-Sans-Bold     col=#0e8899 | 0 1 / H O W I T W O R K S
+[023] [93.8, 769.1, 310.0, 816.2] sz=40.5 font=DejaVu-Sans-Bold     col=#09263a | More than
+[024] [93.8, 811.2, 442.0, 858.4] sz=40.5 font=DejaVu-Sans-Bold     col=#09263a | a training space.
+[025] [675.0, 799.0, 986.3, 813.9] sz=12.8 font=DejaVu-Sans          col=#4d6570 | Creator Factory dirancang sebagai tempat orang
+[026] [675.0, 818.8, 957.3, 833.6] sz=12.8 font=DejaVu-Sans          col=#4d6570 | belajar, menghasilkan karya, lalu terhubung
+[027] [675.0, 838.5, 915.7, 853.4] sz=12.8 font=DejaVu-Sans          col=#4d6570 | dengan kebutuhan bisnis yang nyata.
+[028] [116.2, 918.6, 185.1, 929.1] sz= 9.0 font=DejaVu-Sans-Bold     col=#0d8e9e | 0 1 / L E A R N
+[029] [116.2, 949.3, 185.0, 972.9] sz=20.2 font=DejaVu-Sans-Bold     col=#09263a | Learn.
+[030] [116.2, 981.6, 349.7, 993.8] sz=10.5 font=DejaVu-Sans          col=#6a818b | Pelatihan praktis untuk keterampilan media,
+[031] [116.2, 996.3, 293.2, 1008.5] sz=10.5 font=DejaVu-Sans          col=#6a818b | kreator, dan perdagangan digital.
+[032] [425.0, 918.6, 488.1, 929.1] sz= 9.0 font=DejaVu-Sans-Bold     col=#d5ff50 | 0 2 / M A K E
+[033] [425.0, 949.3, 503.9, 972.9] sz=20.2 font=DejaVu-Sans-Bold     col=#ffffff | Create.
+[034] [425.0, 981.6, 665.9, 993.8] sz=10.5 font=DejaVu-Sans          col=#c9dadb | Produksi konten dan siaran dengan dukungan
+[035] [425.0, 996.3, 573.2, 1008.5] sz=10.5 font=DejaVu-Sans          col=#c9dadb | studio serta pendampingan.
+[036] [733.7, 918.6, 799.7, 929.1] sz= 9.0 font=DejaVu-Sans-Bold     col=#d5ff50 | 0 3 / G R O W
+[037] [733.7, 949.3, 829.2, 972.9] sz=20.2 font=DejaVu-Sans-Bold     col=#ffffff | Connect.
+[038] [733.7, 981.6, 978.2, 993.8] sz=10.5 font=DejaVu-Sans          col=#c9dadb | Kolaborasi dengan brand, instansi, UMKM, dan
+[039] [733.7, 996.3, 903.6, 1008.5] sz=10.5 font=DejaVu-Sans          col=#c9dadb | pasar melalui jejaring Promedia.
+[040] [93.8, 1624.6, 231.2, 1634.2] sz= 8.2 font=DejaVu-Sans-Bold     col=#0e8899 | 0 3 / O U R E C O S Y S T E M
+[041] [93.8, 1643.7, 355.1, 1690.8] sz=40.5 font=DejaVu-Sans-Bold     col=#09263a | Eight pillars.
+[042] [93.8, 1685.8, 377.3, 1732.9] sz=40.5 font=DejaVu-Sans-Bold     col=#09263a | One network.
+[043] [693.8, 1661.1, 982.2, 1675.9] sz=12.8 font=DejaVu-Sans          col=#4d6570 | Setiap cabang mengembangkan fasilitas dan
+[044] [693.8, 1680.9, 976.7, 1695.7] sz=12.8 font=DejaVu-Sans          col=#4d6570 | program sesuai kesiapan lokal, dengan arah
+[045] [693.8, 1700.6, 980.8, 1715.5] sz=12.8 font=DejaVu-Sans          col=#4d6570 | yang sama: dari perhatian menuju transaksi.
+[046] [107.2, 1775.4, 119.8, 1785.9] sz= 9.0 font=DejaVu-Sans-Bold     col=#0d9caf | 01
+[047] [107.2, 1794.9, 255.8, 1808.0] sz=11.2 font=DejaVu-Sans-Bold     col=#09263a | Live Commerce Studios
+[048] [332.6, 1775.4, 345.2, 1785.9] sz= 9.0 font=DejaVu-Sans-Bold     col=#0d9caf | 02
+[049] [332.6, 1794.9, 509.5, 1808.0] sz=11.2 font=DejaVu-Sans-Bold     col=#09263a | Broadcast & Podcast Studio
+[050] [558.0, 1775.4, 570.5, 1785.9] sz= 9.0 font=DejaVu-Sans-Bold     col=#0d9caf | 03
+[051] [558.0, 1794.9, 650.7, 1808.0] sz=11.2 font=DejaVu-Sans-Bold     col=#09263a | Creator Studio
+[052] [783.4, 1775.4, 795.9, 1785.9] sz= 9.0 font=DejaVu-Sans-Bold     col=#0d9caf | 04
+[053] [783.4, 1794.9, 924.7, 1808.0] sz=11.2 font=DejaVu-Sans-Bold     col=#09263a | Digital Skills Academy
+[054] [107.2, 1859.4, 119.8, 1869.9] sz= 9.0 font=DejaVu-Sans-Bold     col=#0d9caf | 05
+[055] [107.2, 1878.9, 212.4, 1892.0] sz=11.2 font=DejaVu-Sans-Bold     col=#09263a | Creator Network
+[056] [332.6, 1859.4, 345.2, 1869.9] sz= 9.0 font=DejaVu-Sans-Bold     col=#0d9caf | 06
+[057] [332.6, 1878.9, 513.1, 1892.0] sz=11.2 font=DejaVu-Sans-Bold     col=#09263a | Commerce & Affiliate Center
+[058] [558.0, 1859.4, 570.5, 1869.9] sz= 9.0 font=DejaVu-Sans-Bold     col=#0d9caf | 07
+[059] [558.0, 1878.9, 715.8, 1892.0] sz=11.2 font=DejaVu-Sans-Bold     col=#09263a | Media Production Center
+[060] [783.4, 1859.4, 795.9, 1869.9] sz= 9.0 font=DejaVu-Sans-Bold     col=#0d9caf | 08
+[061] [783.4, 1878.9, 895.6, 1892.0] sz=11.2 font=DejaVu-Sans-Bold     col=#09263a | Digital Job Center
+[062] [93.8, 2214.9, 373.9, 2225.4] sz= 9.0 font=DejaVu-Sans          col=#a8c4cc | © Promedia Creator Factory Network · Part of Promedia Group
+[063] [825.2, 2214.9, 986.3, 2225.4] sz= 9.0 font=DejaVu-Sans          col=#a8c4cc | creatorfactory.promediateknologi.id
+[064] [93.8, 131.3, 456.1, 141.7] sz= 9.0 font=DejaVu-Sans-Bold     col=#d7ff57 | M AV E R I C K S & A H E A D   /   I N D O N E S I A C R E AT O R E C O N O M Y
+[065] [93.8, 153.5, 435.5, 216.4] sz=54.0 font=DejaVu-Sans-Bold     col=#ffffff | Where ideas
+[066] [93.8, 207.0, 552.3, 269.9] sz=54.0 font=DejaVu-Sans-Bold     col=#ffffff | become content.
+[067] [93.8, 260.5, 571.7, 323.3] sz=54.0 font=DejaVu-Sans-Bold     col=#ffffff | Content becomes
+[068] [93.8, 313.9, 428.7, 376.8] sz=54.0 font=DejaVu-Sans-Bold     col=#ffffff | opportunity.
+[069] [93.8, 395.5, 519.3, 412.1] sz=14.2 font=DejaVu-Sans          col=#e0e8e7 | Promedia Creator Factory Network menghubungkan talenta
+[070] [93.8, 416.8, 497.6, 433.4] sz=14.2 font=DejaVu-Sans          col=#e0e8e7 | daerah dengan keterampilan, fasilitas produksi, jaringan
+[071] [93.8, 438.2, 309.2, 454.8] sz=14.2 font=DejaVu-Sans          col=#e0e8e7 | kreator, dan kebutuhan pasar.
+[072] [111.0, 493.9, 217.7, 506.2] sz=10.5 font=DejaVu-Sans-Bold     col=#071b24 | Partner With Us ↗
+[073] [259.7, 493.9, 383.1, 506.2] sz=10.5 font=DejaVu-Sans-Bold     col=#ffffff | Explore Our Network
+[074] [803.2, 471.2, 1103.3, 597.8] sz=108.8 font=DejaVu-Sans-Bold     col=#ffffff | PCFN
+[075] [93.8, 1156.0, 232.0, 1165.6] sz= 8.2 font=DejaVu-Sans-Bold     col=#d6ff50 | 0 2 / F I N D Y O U R P A T H
+[076] [93.8, 1175.6, 404.0, 1218.3] sz=36.8 font=DejaVu-Sans-Bold     col=#ffffff | One ecosystem.
+[077] [93.8, 1214.1, 392.6, 1256.9] sz=36.8 font=DejaVu-Sans-Bold     col=#ffffff | Four pathways.
+[078] [675.0, 1217.8, 937.7, 1232.6] sz=12.8 font=DejaVu-Sans          col=#b8cdd1 | Jalur dibuat jelas agar setiap pengunjung
+[079] [675.0, 1237.5, 949.4, 1252.4] sz=12.8 font=DejaVu-Sans          col=#b8cdd1 | langsung menemukan langkah yang tepat.
+[080] [111.8, 1305.8, 164.3, 1316.3] sz= 9.0 font=DejaVu-Sans-Bold     col=#0a2a35 | 0 1 / B 2 B
+[081] [111.8, 1352.5, 195.3, 1372.6] sz=17.2 font=DejaVu-Sans-Bold     col=#0a2a35 | Business
+[082] [111.8, 1371.5, 192.5, 1391.5] sz=17.2 font=DejaVu-Sans-Bold     col=#0a2a35 | Partners
+[083] [111.8, 1402.0, 289.5, 1413.3] sz= 9.8 font=DejaVu-Sans          col=#345356 | Kampanye kreator, produksi konten,
+[084] [111.8, 1415.8, 260.0, 1427.2] sz= 9.8 font=DejaVu-Sans          col=#345356 | pelatihan, dan live commerce.
+[085] [111.8, 1444.0, 228.8, 1455.4] sz= 9.8 font=DejaVu-Sans-Bold     col=#0c5164 | Start a Partnership ↗
+[086] [337.1, 1305.8, 412.1, 1316.3] sz= 9.0 font=DejaVu-Sans-Bold     col=#ffffff | 0 2 / TA L E N T
+[087] [337.1, 1352.5, 438.3, 1372.6] sz=17.2 font=DejaVu-Sans-Bold     col=#ffffff | Creators &
+[088] [337.1, 1371.5, 420.2, 1391.5] sz=17.2 font=DejaVu-Sans-Bold     col=#ffffff | Learners
+[089] [337.1, 1402.0, 498.9, 1413.3] sz= 9.8 font=DejaVu-Sans          col=#bed0d4 | Belajar, membuat portofolio, dan
+[090] [337.1, 1415.8, 467.8, 1427.2] sz= 9.8 font=DejaVu-Sans          col=#bed0d4 | ikut kegiatan di kota Anda.
+[091] [337.1, 1444.0, 446.5, 1455.4] sz= 9.8 font=DejaVu-Sans-Bold     col=#d5ff50 | Explore Programs ↗
+[092] [562.5, 1305.8, 645.1, 1316.3] sz= 9.0 font=DejaVu-Sans-Bold     col=#ffffff | 0 3 / T R A I N E R
+[093] [562.5, 1352.5, 654.2, 1372.6] sz=17.2 font=DejaVu-Sans-Bold     col=#ffffff | Become a
+[094] [562.5, 1371.5, 628.7, 1391.5] sz=17.2 font=DejaVu-Sans-Bold     col=#ffffff | Trainer
+[095] [562.5, 1402.0, 709.9, 1413.3] sz= 9.8 font=DejaVu-Sans          col=#bed0d4 | Ikuti seleksi, TOT internal, lalu
+[096] [562.5, 1415.8, 703.3, 1427.2] sz= 9.8 font=DejaVu-Sans          col=#bed0d4 | mengajar sesuai penugasan.
+[097] [562.5, 1444.0, 663.1, 1455.4] sz= 9.8 font=DejaVu-Sans-Bold     col=#d5ff50 | Apply as Trainer ↗
+[098] [787.9, 1305.8, 877.7, 1316.3] sz= 9.0 font=DejaVu-Sans-Bold     col=#ffffff | 0 4 / N E T W O R K
+[099] [787.9, 1352.5, 870.3, 1372.6] sz=17.2 font=DejaVu-Sans-Bold     col=#ffffff | Regional
+[100] [787.9, 1371.5, 868.6, 1391.5] sz=17.2 font=DejaVu-Sans-Bold     col=#ffffff | Partners
+[101] [787.9, 1402.0, 949.3, 1413.3] sz= 9.8 font=DejaVu-Sans          col=#bed0d4 | Bangun Creator Factory bersama
+[102] [787.9, 1415.8, 879.9, 1427.2] sz= 9.8 font=DejaVu-Sans          col=#bed0d4 | jaringan Promedia.
+[103] [787.9, 1444.0, 873.7, 1455.4] sz= 9.8 font=DejaVu-Sans-Bold     col=#d5ff50 | Build With Us ↗
+[104] [410.9, 2055.2, 1115.8, 2225.4] sz=146.2 font=DejaVu-Sans-Bold     col=#ffffff | CREATOR
+[105] [93.8, 2038.6, 265.3, 2048.2] sz= 8.2 font=DejaVu-Sans-Bold     col=#d5ff50 | L E T ' S B U I L D W H A T ' S N E X T
+[106] [93.8, 2059.1, 318.3, 2099.2] sz=34.5 font=DejaVu-Sans-Bold     col=#ffffff | Local talent.
+[107] [93.8, 2097.0, 379.7, 2137.2] sz=34.5 font=DejaVu-Sans-Bold     col=#ffffff | Greater impact.
+[108] [693.8, 2044.3, 972.1, 2057.4] sz=11.2 font=DejaVu-Sans          col=#d3eef0 | Bawa kebutuhan bisnis Anda, bergabung sebagai
+[109] [693.8, 2061.2, 977.9, 2074.3] sz=11.2 font=DejaVu-Sans          col=#d3eef0 | trainer, atau mulai membangun Creator Factory di
+[110] [693.8, 2078.0, 736.9, 2091.1] sz=11.2 font=DejaVu-Sans          col=#d3eef0 | daerah.
+[111] [711.0, 2117.8, 838.0, 2130.0] sz=10.5 font=DejaVu-Sans-Bold     col=#071b24 | Connect With PCFN ↗
+[112] [122.2, 591.9, 261.0, 616.3] sz=21.0 font=DejaVu-Sans-Bold     col=#09263a | Local talent.
+[113] [122.2, 613.7, 360.8, 638.1] sz=21.0 font=DejaVu-Sans-Bold     col=#09263a | National opportunity.
+[114] [431.7, 599.3, 717.0, 613.3] sz=12.0 font=DejaVu-Sans          col=#09263a | Satu jaringan yang mempertemukan pelatihan,
+[115] [431.7, 616.7, 727.0, 630.7] sz=12.0 font=DejaVu-Sans          col=#09263a | studio, kreator, brand, UMKM, dan peluang kerja.
+[116] [788.8, 607.6, 978.4, 622.4] sz=12.8 font=DejaVu-Sans-Bold     col=#ffffff | EXPLORE THE NETWORK ↗

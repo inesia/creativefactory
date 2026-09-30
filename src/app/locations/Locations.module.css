@@ -1,0 +1,133 @@
+.hero {
+  background-color: var(--color-pathways-bg);
+  padding-top: 100px;
+  padding-bottom: 80px;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.categoryTag {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  color: #0d9caf;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.title {
+  font-size: clamp(40px, 5vw, 64px);
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin-bottom: 32px;
+}
+
+.description {
+  font-size: 20px;
+  font-weight: 400;
+  color: #e0e8e7;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: var(--color-page-bg);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.locationCard {
+  background-color: #ffffff;
+  border: 1px solid var(--color-border-pillar);
+  padding: 32px;
+  border-radius: 4px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.locationCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.06);
+}
+
+.city {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--color-text-dark);
+  margin-bottom: 8px;
+}
+
+.address {
+  font-size: 14px;
+  color: var(--color-text-muted-dark);
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+.facilitiesLabel {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--color-accent-teal);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.facilityList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px 0;
+}
+
+.facilityList li {
+  font-size: 14px;
+  color: var(--color-text-dark);
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  border-bottom: 1px dashed #e0e8e7;
+}
+
+.facilityList li:last-child {
+  border-bottom: none;
+}
+
+.status {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.statusActive {
+  background-color: #e6f7eb;
+  color: #0d9caf;
+}
+
+.statusComing {
+  background-color: #f7f1e6;
+  color: #af810d;
+}
+
+@media (max-width: 990px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

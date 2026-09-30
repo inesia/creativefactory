@@ -1,0 +1,139 @@
+.hero {
+  background-color: var(--color-hero-bg);
+  padding-top: 100px;
+  padding-bottom: 80px;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.heroInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.categoryTag {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  color: #d7ff57;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.title {
+  font-size: clamp(40px, 5vw, 64px);
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin-bottom: 32px;
+}
+
+.description {
+  font-size: 20px;
+  font-weight: 400;
+  color: #e0e8e7;
+  line-height: 1.6;
+}
+
+.section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: var(--color-page-bg);
+}
+
+.sectionDark {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: var(--color-pathways-bg);
+  color: #ffffff;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.textCol h2 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.15;
+  margin-bottom: 24px;
+  color: var(--color-text-dark);
+}
+
+.sectionDark .textCol h2 {
+  color: #ffffff;
+}
+
+.textCol p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: var(--color-text-muted-dark);
+}
+
+.sectionDark .textCol p {
+  color: #b8cdd1;
+}
+
+.imageCol {
+  border-radius: 4px;
+  overflow: hidden;
+  aspect-ratio: 4/3;
+  background-color: #0c667c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.statItem {
+  border-left: 2px solid #d4ff4f;
+  padding-left: 20px;
+}
+
+.statNumber {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.statLabel {
+  font-size: 14px;
+  font-weight: 700;
+  color: #b8cdd1;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .statsGrid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

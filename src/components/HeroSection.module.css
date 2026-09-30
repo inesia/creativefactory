@@ -1,0 +1,156 @@
+.hero {
+  position: relative;
+  background-color: var(--color-hero-bg);
+  background-image: linear-gradient(
+      90deg,
+      rgba(5, 21, 28, 0.95) 0%,
+      rgba(5, 21, 28, 0.8) 50%,
+      rgba(5, 21, 28, 0.2) 100%
+    ),
+    url('/images/hero_bg.png');
+  background-size: cover;
+  background-position: center;
+  padding-top: 120px;
+  padding-bottom: 140px;
+  overflow: hidden;
+}
+
+.inner {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.textCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.categoryTag {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  color: #d7ff57;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.title {
+  font-size: clamp(48px, 5vw, 84px);
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.05;
+  letter-spacing: -0.025em;
+  margin-bottom: 32px;
+}
+
+.titleLine {
+  display: block;
+}
+
+.description {
+  font-size: 20px;
+  font-weight: 400;
+  color: #e0e8e7;
+  line-height: 1.6;
+  max-width: 720px;
+  margin-bottom: 48px;
+}
+
+.ctaGroup {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.primaryBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d4ff4f;
+  color: #071b24;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 16px 32px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  letter-spacing: 0.02em;
+}
+
+.primaryBtn:hover {
+  background-color: var(--color-accent-lime-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(212, 255, 79, 0.25);
+}
+
+.secondaryBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 15px 32px;
+  border: 1px solid #bccdd1;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+  letter-spacing: 0.02em;
+}
+
+.secondaryBtn:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+  border-color: #ffffff;
+  transform: translateY(-2px);
+}
+
+
+
+.watermark {
+  position: absolute;
+  right: 40px;
+  bottom: 10px;
+  font-size: 140px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.04);
+  user-select: none;
+  pointer-events: none;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  z-index: 1;
+}
+
+@media (max-width: 1080px) {
+  .inner {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .videoCard {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero {
+    padding-top: 48px;
+    padding-bottom: 72px;
+  }
+
+  .ctaGroup {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+  }
+
+  .primaryBtn,
+  .secondaryBtn {
+    width: 100%;
+    text-align: center;
+  }
+}
