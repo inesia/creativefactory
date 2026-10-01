@@ -38,25 +38,25 @@
 }
 
 .title {
-  font-size: clamp(48px, 5vw, 84px);
+  font-size: clamp(36px, 4vw, 56px);
   font-weight: 700;
   color: #ffffff;
-  line-height: 1.05;
+  line-height: 1.1;
   letter-spacing: -0.025em;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
 }
 
 .titleLine {
-  display: block;
+  display: inline-block;
+  margin-right: 0.25em;
 }
 
 .description {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   color: #e0e8e7;
   line-height: 1.6;
-  max-width: 720px;
-  margin-bottom: 48px;
+  margin-bottom: 40px;
 }
 
 .ctaGroup {

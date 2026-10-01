@@ -9,41 +9,42 @@
 .banner {
   display: flex;
   align-items: stretch;
-  background-color: #d4ff50;
-  box-shadow: 0 12px 32px rgba(5, 26, 38, 0.18);
-  min-height: 105px;
+  background: linear-gradient(135deg, #d4ff50 0%, #c2f038 100%);
+  box-shadow: 0 12px 32px rgba(5, 26, 38, 0.15);
+  border-radius: 0 0 14px 14px;
+  overflow: hidden;
+  min-height: 96px;
 }
 
 .leftCol {
-  flex: 0 0 32%;
-  padding: 18px 24px;
+  flex: 0 0 30%;
+  padding: 20px 28px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border-right: 1px solid rgba(9, 38, 58, 0.12);
+  border-right: 1px solid rgba(9, 38, 58, 0.1);
 }
 
 .title {
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 700;
   color: #09263a;
-  line-height: 1.12;
+  line-height: 1.15;
   letter-spacing: -0.02em;
 }
 
 .midCol {
   flex: 1;
-  padding: 18px 24px;
+  padding: 20px 28px;
   display: flex;
   align-items: center;
 }
 
 .description {
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 15px;
+  font-weight: 500;
   color: #09263a;
-  line-height: 1.45;
-  max-width: 580px;
+  line-height: 1.5;
 }
 
 .rightCol {
@@ -58,17 +59,18 @@
   justify-content: center;
   background-color: #0a3444;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
-  padding: 0 48px;
+  padding: 0 36px;
   text-decoration: none;
   letter-spacing: 0.04em;
   white-space: nowrap;
-  transition: background-color 0.15s ease;
+  transition: all 0.2s ease;
 }
 
 .ctaBtn:hover {
-  background-color: #06222d;
+  background-color: #051a24;
+  color: #d4ff50;
 }
 
 @media (max-width: 900px) {

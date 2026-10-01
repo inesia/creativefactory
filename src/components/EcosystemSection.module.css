@@ -1,91 +1,100 @@
 .section {
   background-color: var(--color-page-bg);
-  padding-top: 56px;
-  padding-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 64px;
 }
 
 .headerRow {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  margin-bottom: 28px;
-  gap: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 32px;
+  gap: 8px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgba(9, 38, 58, 0.08);
 }
 
 .leftCol {
-  flex: 1;
+  width: 100%;
 }
 
 .sectionLabel {
   display: inline-block;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
   color: var(--color-accent-teal);
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 .title {
-  font-size: 52px;
+  font-size: clamp(26px, 3vw, 36px);
   font-weight: 700;
   color: #09263a;
-  line-height: 1.05;
+  line-height: 1.2;
   letter-spacing: -0.025em;
+  margin-bottom: 8px;
 }
 
 .titleLine {
-  display: block;
+  display: inline-block;
+  margin-right: 0.25em;
 }
 
 .rightCol {
-  flex: 0 0 480px;
+  width: 100%;
 }
 
 .sectionDesc {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 400;
-  color: #4d6570;
-  line-height: 1.55;
+  color: #526b77;
+  line-height: 1.6;
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 9px;
+  gap: 16px;
 }
 
 .card {
   background-color: #ffffff;
-  border: 1px solid var(--color-border-pillar);
-  padding: 24px 24px;
-  min-height: 90px;
+  border: 1px solid rgba(9, 38, 58, 0.08);
+  padding: 24px 22px;
+  min-height: 110px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  border-radius: 2px;
-  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+  justify-content: space-between;
+  border-radius: 14px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.02);
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s ease;
 }
 
 .card:hover {
-  transform: translateY(-2px);
-  border-color: #0d9caf;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+  transform: translateY(-4px);
+  border-color: rgba(13, 156, 175, 0.4);
+  box-shadow: 0 12px 28px rgba(13, 156, 175, 0.12);
 }
 
 .cardNum {
-  font-size: 13px;
-  font-weight: 700;
+  font-size: 11px;
+  font-weight: 800;
   color: #0d9caf;
-  margin-bottom: 8px;
-  display: block;
+  background-color: rgba(13, 156, 175, 0.08);
+  padding: 3px 10px;
+  border-radius: 12px;
+  width: fit-content;
+  margin-bottom: 12px;
+  display: inline-block;
 }
 
 .cardName {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
   color: #09263a;
-  line-height: 1.25;
+  line-height: 1.35;
 }
 
 @media (max-width: 990px) {

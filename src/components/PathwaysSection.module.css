@@ -1,108 +1,122 @@
 .section {
   background-color: var(--color-pathways-bg);
-  padding-top: 56px;
-  padding-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 68px;
 }
 
 .headerRow {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  margin-bottom: 28px;
-  gap: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 32px;
+  gap: 8px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .leftCol {
-  flex: 1;
+  width: 100%;
 }
 
 .sectionLabel {
   display: inline-block;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
   color: #d6ff50;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 .title {
-  font-size: 52px;
+  font-size: clamp(26px, 3vw, 36px);
   font-weight: 700;
   color: #ffffff;
-  line-height: 1.05;
+  line-height: 1.2;
   letter-spacing: -0.025em;
+  margin-bottom: 8px;
 }
 
 .titleLine {
-  display: block;
+  display: inline-block;
+  margin-right: 0.25em;
 }
 
 .rightCol {
-  flex: 0 0 480px;
+  width: 100%;
 }
 
 .sectionDesc {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 400;
   color: #b8cdd1;
-  line-height: 1.55;
+  line-height: 1.6;
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
+  gap: 16px;
 }
 
 .card {
-  padding: 32px 28px 30px 28px;
-  min-height: 240px;
+  padding: 28px 24px 26px 24px;
+  min-height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border-radius: 2px;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  border-radius: 16px;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s ease;
 }
 
 .card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.3);
+  transform: translateY(-6px);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
 }
 
 .cardHighlight {
-  background-color: #d4ff4f;
+  background: linear-gradient(135deg, #d4ff4f 0%, #baee32 100%);
   border: 1px solid #d4ff4f;
+  box-shadow: 0 8px 24px rgba(212, 255, 79, 0.15);
 }
 
 .cardDark {
-  background-color: #113442;
-  border: 1px solid #527279;
+  background: rgba(17, 52, 66, 0.65);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(82, 114, 121, 0.4);
+}
+
+.cardDark:hover {
+  border-color: rgba(213, 255, 80, 0.4);
 }
 
 .cardLabel {
-  font-size: 13px;
+  font-size: 11px;
   font-weight: 700;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   margin-bottom: 16px;
-  display: block;
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 20px;
 }
 
 .cardHighlight .cardLabel {
   color: #0a2a35;
+  background-color: rgba(10, 42, 53, 0.1);
 }
 
 .cardDark .cardLabel {
-  color: #ffffff;
+  color: #d5ff50;
+  background-color: rgba(213, 255, 80, 0.12);
 }
 
 .cardTitle {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
-  line-height: 1.15;
+  line-height: 1.25;
   letter-spacing: -0.01em;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 .cardHighlight .cardTitle {
@@ -114,29 +128,29 @@
 }
 
 .cardDesc {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
-  line-height: 1.45;
-  margin-bottom: 24px;
+  line-height: 1.55;
+  margin-bottom: 20px;
 }
 
 .cardHighlight .cardDesc {
-  color: #345356;
+  color: #264346;
 }
 
 .cardDark .cardDesc {
-  color: #bed0d4;
+  color: #a8bec3;
 }
 
 .cardCta {
   display: inline-flex;
   align-items: center;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.02em;
   text-decoration: none;
   margin-top: auto;
-  transition: opacity 0.15s ease;
+  transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
 .cardHighlight .cardCta {
@@ -148,7 +162,8 @@
 }
 
 .cardCta:hover {
-  opacity: 0.85;
+  transform: translateX(4px);
+  opacity: 0.9;
 }
 
 @media (max-width: 990px) {
