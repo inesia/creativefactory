@@ -1,109 +1,125 @@
 .section {
   background-color: var(--color-page-bg);
-  padding-top: 54px;
-  padding-bottom: 56px;
+  padding-top: 60px;
+  padding-bottom: 64px;
 }
 
 .headerRow {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  margin-bottom: 28px;
-  gap: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 32px;
+  gap: 8px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgba(9, 38, 58, 0.08);
 }
 
 .leftCol {
-  flex: 1;
+  width: 100%;
 }
 
 .sectionLabel {
   display: inline-block;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
   color: var(--color-accent-teal);
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 .title {
-  font-size: 52px;
+  font-size: clamp(26px, 3vw, 36px);
   font-weight: 700;
   color: #09263a;
-  line-height: 1.05;
+  line-height: 1.2;
   letter-spacing: -0.025em;
+  margin-bottom: 8px;
 }
 
 .titleLine {
-  display: block;
+  display: inline-block;
+  margin-right: 0.25em;
 }
 
 .rightCol {
-  flex: 0 0 480px;
+  width: 100%;
 }
 
 .sectionDesc {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 400;
-  color: #4d6570;
-  line-height: 1.55;
+  color: #526b77;
+  line-height: 1.6;
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
+  gap: 16px;
 }
 
 .card {
-  padding: 32px 32px;
-  min-height: 180px;
+  padding: 32px 28px;
+  min-height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  border: 1px solid var(--color-border-card-how);
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  border-radius: 16px;
+  border: 1px solid rgba(12, 102, 124, 0.15);
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s ease;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.03);
 }
 
 .card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transform: translateY(-5px);
+  box-shadow: 0 16px 32px rgba(5, 26, 38, 0.1);
 }
 
 .cardWhite {
   background-color: #ffffff;
+  border-color: rgba(9, 38, 58, 0.08);
 }
 
 .cardDarkTeal {
-  background-color: #0a3444;
+  background: linear-gradient(145deg, #0a3444 0%, #062633 100%);
+  border-color: rgba(255, 255, 255, 0.1);
 }
 
 .cardMidnightTeal {
-  background-color: #113d4b;
+  background: linear-gradient(145deg, #113d4b 0%, #0c2d38 100%);
+  border-color: rgba(255, 255, 255, 0.12);
 }
 
 .cardLabel {
-  font-size: 13px;
+  display: inline-flex;
+  align-items: center;
+  font-size: 11px;
   font-weight: 700;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  width: fit-content;
 }
 
 .cardWhite .cardLabel {
   color: #0d8e9e;
+  background-color: rgba(13, 142, 158, 0.08);
 }
 
 .cardDarkTeal .cardLabel,
 .cardMidnightTeal .cardLabel {
   color: #d5ff50;
+  background-color: rgba(213, 255, 80, 0.12);
 }
 
 .cardTitle {
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 700;
-  line-height: 1.15;
-  margin-bottom: 16px;
+  line-height: 1.2;
+  margin-bottom: 12px;
 }
 
 .cardWhite .cardTitle {
@@ -116,18 +132,18 @@
 }
 
 .cardDescription {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .cardWhite .cardDescription {
-  color: #6a818b;
+  color: #5a737d;
 }
 
 .cardDarkTeal .cardDescription,
 .cardMidnightTeal .cardDescription {
-  color: #c9dadb;
+  color: #c0d3d5;
 }
 
 @media (max-width: 900px) {
