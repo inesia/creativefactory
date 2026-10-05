@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { siteContent } from '@/content/home';
 import styles from './SiteHeader.module.css';
 
@@ -23,9 +24,14 @@ export const SiteHeader: React.FC = () => {
     <header className={styles.header}>
       <div className={`container ${styles.inner}`}>
         <Link href="/" className={styles.brandGroup} aria-label={`${brand.name} ${brand.subname}`}>
-          <span className={styles.brandTitle}>{brand.name}</span>
-          <span className={styles.brandSubtitle}>{brand.subname}</span>
-          <span className={styles.brandDot} aria-hidden="true">●</span>
+          <Image
+            src="/images/Logo.png"
+            alt={`${brand.name} Logo`}
+            width={180}
+            height={45}
+            style={{ objectFit: 'contain' }}
+            priority
+          />
         </Link>
 
         {/* Desktop Navigation */}
