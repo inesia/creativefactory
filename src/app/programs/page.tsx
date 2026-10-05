@@ -6,29 +6,25 @@ export default function ProgramsPage() {
   const pathways = [
     {
       id: 'b2b',
-      code: '01 / B2B',
-      title: 'Business Partners',
+      title: '1. Business Partners',
       desc: 'Solusi end-to-end untuk brand dan korporasi. Dari kampanye digital bersama ratusan kreator lokal, produksi konten berkualitas tinggi, pelatihan tim in-house, hingga manajemen live commerce terpadu.',
       cta: 'Mulai Kolaborasi'
     },
     {
       id: 'talent',
-      code: '02 / TALENT',
-      title: 'Creators & Learners',
+      title: '2. Creators & Learners',
       desc: 'Bergabunglah untuk mengasah skill Anda. Kami menyediakan kurikulum komprehensif, ruang untuk membangun portofolio riil, dan kesempatan terlibat langsung dalam proyek komersial di kota Anda.',
       cta: 'Lihat Program Pelatihan'
     },
     {
       id: 'trainer',
-      code: '03 / TRAINER',
-      title: 'Become a Trainer',
+      title: '3. Become a Trainer',
       desc: 'Bagi Anda yang sudah memiliki pengalaman mumpuni, mari berbagi ilmu. Ikuti seleksi, dapatkan sertifikasi Training of Trainers (TOT) internal kami, dan jadilah pengajar resmi di jaringan Promedia.',
       cta: 'Daftar Jadi Trainer'
     },
     {
       id: 'network',
-      code: '04 / NETWORK',
-      title: 'Regional Partners',
+      title: '4. Regional Partners',
       desc: 'Bawa ekosistem Creator Factory ke kota Anda. Kami mencari mitra daerah yang siap berkolaborasi menyediakan fasilitas fisik dengan dukungan manajemen operasi dan kurikulum dari Promedia.',
       cta: 'Pelajari Sistem Kemitraan'
     }
@@ -54,10 +50,9 @@ export default function ProgramsPage() {
             {pathways.map((path) => (
               <div key={path.id} className={styles.pathwayRow}>
                 <div className={styles.pathwayVisual}>
-                  {path.code}
+                  {/* Gambar akan ditaruh di sini */}
                 </div>
                 <div className={styles.pathwayInfo}>
-                  <div className={styles.pathCode}>{path.code}</div>
                   <h2 className={styles.pathTitle}>{path.title}</h2>
                   <p className={styles.pathDesc}>{path.desc}</p>
                   <Link href="/contact" className={styles.pathCta}>

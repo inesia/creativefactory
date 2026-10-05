@@ -32,7 +32,7 @@ export default function AboutPage() {
               Melalui Creator Factory, Promedia mendirikan simpul-simpul produksi (production nodes)
               di berbagai kota. Kami tidak hanya menyediakan ruangan dan kamera, tetapi juga ekosistem
               pembelajaran, pendampingan, hingga penyaluran peluang kerja (Job Center) dan kolaborasi
-              dengan brand (Commerce Center).
+              dengan UMKM lokal hingga brand nasional (Commerce Center).
             </p>
           </div>
           <div className={styles.imageCol}>
@@ -51,21 +51,6 @@ export default function AboutPage() {
               konten berkualitas, dan setiap konten harus mampu membuka pintu rezeki dan
               peluang yang berkelanjutan.
             </p>
-          </div>
-          
-          <div className={styles.statsGrid}>
-            <div className={styles.statItem}>
-              <div className={styles.statNumber}>10+</div>
-              <div className={styles.statLabel}>Regional Hubs</div>
-            </div>
-            <div className={styles.statItem}>
-              <div className={styles.statNumber}>500+</div>
-              <div className={styles.statLabel}>Active Creators</div>
-            </div>
-            <div className={styles.statItem}>
-              <div className={styles.statNumber}>1000+</div>
-              <div className={styles.statLabel}>Hours of Content</div>
-            </div>
           </div>
         </div>
       </section>

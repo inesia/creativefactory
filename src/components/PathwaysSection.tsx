@@ -33,7 +33,7 @@ export const PathwaysSection: React.FC = () => {
               }`}
             >
               <div>
-                <span className={styles.cardLabel}>{item.code}</span>
+                {item.code && <span className={styles.cardLabel}>{item.code}</span>}
                 <h3 className={styles.cardTitle}>{item.title}</h3>
                 <p className={styles.cardDesc}>{item.description}</p>
               </div>

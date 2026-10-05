@@ -32,6 +32,24 @@ export default function LocationsPage() {
       address: 'Nipah Mall, Jl. Urip Sumoharjo, Makassar',
       status: 'Coming Soon',
       facilities: ['Live Commerce Studios', 'Creator Studio']
+    },
+    {
+      city: 'Banyuwangi',
+      address: 'Jl. Letjen S Parman No.7, Sobo, Kec. Banyuwangi, Kabupaten Banyuwangi, Jawa Timur 68418',
+      status: 'Coming Soon',
+      facilities: ['Live Commerce Studios', 'Broadcast & Podcast Studios', 'Creator Studios', 'Digital Skills Academy']
+    },
+    {
+      city: 'Mojokerto',
+      address: '',
+      status: 'Coming Soon',
+      facilities: []
+    },
+    {
+      city: 'Pandeglang',
+      address: '',
+      status: 'Coming Soon',
+      facilities: []
     }
   ];
 
@@ -57,13 +75,19 @@ export default function LocationsPage() {
                 <div className={branch.status === 'Active' ? `${styles.status} ${styles.statusActive}` : `${styles.status} ${styles.statusComing}`}>
                   {branch.status}
                 </div>
-                <p className={styles.address} style={{ marginTop: '16px' }}>{branch.address}</p>
-                <span className={styles.facilitiesLabel}>Available Facilities:</span>
-                <ul className={styles.facilityList}>
-                  {branch.facilities.map((fac, i) => (
-                    <li key={i}>{fac}</li>
-                  ))}
-                </ul>
+                {branch.address && (
+                  <p className={styles.address} style={{ marginTop: '16px' }}>{branch.address}</p>
+                )}
+                {branch.facilities && branch.facilities.length > 0 && (
+                  <>
+                    <span className={styles.facilitiesLabel}>Available Facilities:</span>
+                    <ul className={styles.facilityList}>
+                      {branch.facilities.map((fac, i) => (
+                        <li key={i}>{fac}</li>
+                      ))}
+                    </ul>
+                  </>
+                )}
               </div>
             ))}
           </div>

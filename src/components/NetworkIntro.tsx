@@ -20,12 +20,6 @@ export const NetworkIntro: React.FC = () => {
           <div className={styles.midCol}>
             <p className={styles.description}>{description}</p>
           </div>
-
-          <div className={styles.rightCol}>
-            <Link href={cta.href} className={styles.ctaBtn}>
-              {cta.label}
-            </Link>
-          </div>
         </div>
       </div>
     </section>

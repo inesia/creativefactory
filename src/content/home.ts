@@ -50,7 +50,7 @@ export const siteContent = {
   },
 
   hero: {
-    categoryLabel: 'MAVERICKS & AHEAD / INDONESIA CREATOR ECONOMY',
+    categoryLabel: 'Indonesia Creator Economy',
     heading: {
       line1: 'Where ideas',
       line2: 'become content.',
@@ -76,7 +76,7 @@ export const siteContent = {
       line2: 'National opportunity.',
     },
     description:
-      'Satu jaringan yang mempertemukan pelatihan, studio, kreator, brand, UMKM, dan peluang kerja.',
+      'Satu jaringan yang mempertemukan talenta daerah dengan pelatihan, studio, UMKM, brand nasional, hingga peluang kerja.',
     cta: {
       label: 'EXPLORE THE NETWORK ↗',
       href: '#ecosystem',
@@ -84,7 +84,7 @@ export const siteContent = {
   },
 
   howItWorks: {
-    sectionLabel: '01 / HOW IT WORKS',
+    sectionLabel: 'HOW IT WORKS',
     heading: {
       line1: 'More than',
       line2: 'a training space.',
@@ -93,25 +93,25 @@ export const siteContent = {
       'Creator Factory dirancang sebagai tempat orang belajar, menghasilkan karya, lalu terhubung dengan kebutuhan bisnis yang nyata.',
     items: [
       {
-        number: '01 / LEARN',
+        number: '',
         stepName: 'Learn',
-        title: 'Learn.',
+        title: '1. Learn.',
         description:
           'Pelatihan praktis untuk keterampilan media, kreator, dan perdagangan digital.',
         cardTheme: 'white',
       },
       {
-        number: '02 / MAKE',
+        number: '',
         stepName: 'Make',
-        title: 'Create.',
+        title: '2. Create.',
         description:
           'Produksi konten dan siaran dengan dukungan studio serta pendampingan.',
         cardTheme: 'darkTeal',
       },
       {
-        number: '03 / GROW',
+        number: '',
         stepName: 'Grow',
-        title: 'Connect.',
+        title: '3. Connect.',
         description:
           'Kolaborasi dengan brand, instansi, UMKM, dan pasar melalui jejaring Promedia.',
         cardTheme: 'midnightTeal',
@@ -120,50 +120,50 @@ export const siteContent = {
   },
 
   pathways: {
-    sectionLabel: '02 / FIND YOUR PATH',
+    sectionLabel: 'FIND YOUR PATH',
     heading: {
       line1: 'One ecosystem.',
       line2: 'Four pathways.',
     },
     description:
-      'Jalur dibuat jelas agar setiap pengunjung langsung menemukan langkah yang tepat.',
+      'Pilih peran yang sesuai dengan kebutuhan Anda untuk mulai berkolaborasi.',
     items: [
       {
         id: 'pathway-b2b',
-        code: '01 / B2B',
-        title: 'Business Partners',
+        code: '',
+        title: '1. Business Partners',
         description:
-          'Kampanye kreator, produksi konten, pelatihan, dan live commerce.',
+          'Kampanye kreatif, produksi konten, hingga layanan pelatihan & livecommerce.',
         ctaText: 'Start a Partnership ↗',
         ctaHref: '#contact',
         isPrimaryHighlight: true,
       },
       {
         id: 'pathway-talent',
-        code: '02 / TALENT',
-        title: 'Creators & Learners',
+        code: '',
+        title: '2. Creators & Learners',
         description:
-          'Belajar, membuat portofolio, dan ikut kegiatan di kota Anda.',
+          'Pelajari keterampilan baru, bangun portofolio, dan ikuti pelatihan seru di kota Anda',
         ctaText: 'Explore Programs ↗',
         ctaHref: '#pathway-talent',
         isPrimaryHighlight: false,
       },
       {
         id: 'pathway-trainer',
-        code: '03 / TRAINER',
-        title: 'Become a Trainer',
+        code: '',
+        title: '3. Become a Trainer',
         description:
-          'Ikuti seleksi, TOT internal, lalu mengajar sesuai penugasan.',
+          'Bagikan keahlian Anda, ikuti program ToT, dan bimbing generasi kreator berikutnya.',
         ctaText: 'Apply as Trainer ↗',
         ctaHref: '#pathway-trainer',
         isPrimaryHighlight: false,
       },
       {
         id: 'pathway-network',
-        code: '04 / NETWORK',
-        title: 'Regional Partners',
+        code: '',
+        title: '4. Regional Partner',
         description:
-          'Bangun Creator Factory bersama jaringan Promedia.',
+          'Buka Creator Factory di kota Anda dan bangun pusat pertumbuhan ekonomi digital lokal.',
         ctaText: 'Build With Us ↗',
         ctaHref: '#contact',
         isPrimaryHighlight: false,
@@ -172,13 +172,13 @@ export const siteContent = {
   },
 
   ecosystem: {
-    sectionLabel: '03 / OUR ECOSYSTEM',
+    sectionLabel: 'OUR ECOSYSTEM',
     heading: {
       line1: 'Eight pillars.',
       line2: 'One network.',
     },
     description:
-      'Setiap cabang mengembangkan fasilitas dan program sesuai kesiapan lokal, dengan arah yang sama: dari perhatian menuju transaksi.',
+      'Setiap cabang mengembangkan fasilitas dan program sesuai dengan kesiapan daerah dengan tujuan nasional yang sama: menciptakan kemandirian ekonomi digital lokal.',
     pillars: [
       { number: '01', name: 'Live Commerce Studios' },
       { number: '02', name: 'Broadcast & Podcast Studio' },
@@ -198,7 +198,7 @@ export const siteContent = {
       line2: 'Greater impact.',
     },
     description:
-      'Bawa kebutuhan bisnis Anda, bergabung sebagai trainer, atau mulai membangun Creator Factory di daerah.',
+      'Bawa kebutuhan bisnis Anda, bergabung sebagai trainer atau kreator, atau membangun Creator Factory di daerah.',
     button: {
       label: 'Connect With PCFN ↗',
       href: '#contact',

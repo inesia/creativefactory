@@ -40,7 +40,7 @@ export const HowItWorks: React.FC = () => {
               key={item.number}
               className={`${styles.card} ${getThemeClass(item.cardTheme)}`}
             >
-              <span className={styles.cardLabel}>{item.number}</span>
+              {item.number && <span className={styles.cardLabel}>{item.number}</span>}
               <h3 className={styles.cardTitle}>{item.title}</h3>
               <p className={styles.cardDescription}>{item.description}</p>
             </div>

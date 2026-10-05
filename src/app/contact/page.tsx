@@ -9,8 +9,8 @@ export default function ContactPage() {
           <span className={styles.categoryTag}>Get In Touch</span>
           <h1 className={styles.title}>Let's Build What's Next</h1>
           <p className={styles.description}>
-            Bawa kebutuhan bisnis Anda, bergabung sebagai trainer, atau 
-            mulai membangun cabang Creator Factory di daerah Anda bersama Promedia.
+            Bawa kebutuhan bisnis Anda, bergabung sebagai trainer atau kreator, atau 
+            membangun Creator Factory di daerah.
           </p>
         </div>
       </section>
@@ -22,18 +22,18 @@ export default function ContactPage() {
             <div className={styles.infoItem}>
               <div className={styles.infoLabel}>Alamat Kantor Pusat</div>
               <div className={styles.infoText}>
-                Promedia Headquarters<br/>
-                Jl. Jendral Sudirman No. Kav 21<br/>
-                Jakarta Selatan, 12920
+                Promedia HQ<br/>
+                Jl. Terusan Halimun No.52, Lkr. Sel., Kec.<br/>
+                Lengkong, Kota Bandung, Jawa Barat 40263
               </div>
             </div>
             <div className={styles.infoItem}>
               <div className={styles.infoLabel}>Email</div>
-              <div className={styles.infoText}>hello@creatorfactory.promediateknologi.id</div>
+              <div className={styles.infoText}>marcomm@promediateknologi.id</div>
             </div>
             <div className={styles.infoItem}>
               <div className={styles.infoLabel}>Telepon / WhatsApp</div>
-              <div className={styles.infoText}>+62 811-0000-1234</div>
+              <div className={styles.infoText}>0811-2007-667</div>
             </div>
           </div>
 
